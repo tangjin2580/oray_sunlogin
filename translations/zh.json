@@ -1,0 +1,41 @@
+{
+  "title": "Oray Sunlogin",
+  "config": {
+    "step": {
+      "user": {
+        "title": "连接 Oray Sunlogin",
+        "data": {
+          "username": "用户名",
+          "password": "密码"
+        },
+        "data_description": {
+          "username": "贝锐账号（手机号或邮箱）",
+          "password": "贝锐账号密码"
+        }
+      },
+      "options": {
+        "title": "选项",
+        "data": {
+          "scan_interval": "扫描间隔"
+        },
+        "data_description": {
+          "scan_interval": "设备状态刷新间隔（秒）"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "用户名或密码错误",
+      "cannot_connect": "无法连接到服务器",
+      "unknown": "发生未知错误"
+    },
+    "abort": {
+      "already_configured": "此账户已配置"
+    }
+  },
+  "options": {
+    "error": {
+      "invalid_auth": "用户名或密码错误",
+      "cannot_connect": "无法连接到服务器"
+    }
+  }
+}

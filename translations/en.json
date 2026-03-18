@@ -1,0 +1,33 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Oray Sunlogin",
+                "description": "Enter your Oray Sunlogin credentials",
+                "data": {
+                    "username": "Username",
+                    "password": "Password"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Invalid username or password",
+            "cannot_connect": "Unable to connect to Oray Sunlogin servers",
+            "unknown": "Unknown error occurred"
+        },
+        "abort": {
+            "already_configured": "Account is already configured"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Oray Sunlogin Options",
+                "description": "Configure update interval",
+                "data": {
+                    "scan_interval": "Scan interval (seconds)"
+                }
+            }
+        }
+    }
+}

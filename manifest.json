@@ -1,0 +1,15 @@
+{
+    "domain": "oray_sunlogin",
+    "name": "Oray Sunlogin",
+    "version": "1.0.0",
+    "config_flow": true,
+    "documentation": "https://github.com/your-repo/oray_sunlogin",
+    "issue_tracker": "https://github.com/your-repo/oray_sunlogin/issues",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": ["@yourusername"],
+    "iot_class": "cloud_polling",
+    "logs": {
+        "level": "info"
+    }
+}
