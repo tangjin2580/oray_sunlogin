@@ -33,7 +33,7 @@ cp -r custom_components/oray_sunlogin ~/.homeassistant/custom_components/
 
 1. 打开HACS
 2. 点击右上角的「Custom repositories」
-3. 输入仓库地址：`https://github.com/your-repo/oray_sunlogin`
+3. 输入仓库地址：`https://github.com/tangjin2580/oray_sunlogin`
 4. 选择类型为「Integration」
 5. 点击「Add」
 6. 安装完成后重启Home Assistant
